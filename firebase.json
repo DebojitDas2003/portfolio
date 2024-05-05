@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "site": "deb-o-jit",
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}

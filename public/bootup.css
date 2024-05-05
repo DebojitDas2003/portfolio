@@ -1,0 +1,56 @@
+* {
+  height: 100%;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.D {
+  color: #4285f4;
+}
+
+.E {
+  color: #ea4335;
+}
+
+.B {
+  color: #fbbc05;
+}
+
+.O {
+  color: #34a853;
+}
+
+.J {
+  color: #fbbc05;
+}
+
+.I {
+  color: #ea4335;
+}
+
+.T {
+  color: #4285f4;
+}
