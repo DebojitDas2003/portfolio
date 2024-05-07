@@ -11,17 +11,25 @@ function handleButtonPress() {
 
     // Set a new timeout for 3 seconds
     timeout = setTimeout(() => {
-        // Redirect to homepage.html
+        // Redirect to bootup.html
         window.location.href = 'bootup.html';
     }, 1000);
 }
 
-// Add event listener for button press
+// Add event listener for mouse button press
 button.addEventListener('mousedown', handleButtonPress);
 
-// Add event listener for button release
+// Add event listener for mouse button release
 button.addEventListener('mouseup', () => {
     // Clear the timeout if the button is released before 1 second
     clearTimeout(timeout);
 });
 
+// Add event listener for touch start
+button.addEventListener('touchstart', handleButtonPress);
+
+// Add event listener for touch end
+button.addEventListener('touchend', () => {
+    // Clear the timeout if the touch is ended before 1 second
+    clearTimeout(timeout);
+});
