@@ -11,10 +11,6 @@ body {
 }
 
 .name {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 10px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,34 +23,38 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .D {
-  color: #4285f4;
-  padding-left: 0rem;
-}
-
-.E {
-  color: #ea4335;
-}
-
-.B {
-  color: #fbbc05;
-}
-
-.O {
-  color: #34a853;
-}
-
-.J {
-  color: #fbbc05;
-}
-
-.I {
-  color: #ea4335;
+  padding-left: 50rem;
 }
 
 .T {
-  color: #4285f4;
   padding-right: 50rem;
+}
+
+.name .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name .title h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.name .title .d {
+}
+
+.name .title .a {
+}
+
+.name .title .s {
 }
