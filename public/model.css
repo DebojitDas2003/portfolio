@@ -38,6 +38,9 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
+  position: absolute;
+  padding-left: 15rem;
 }
 
 .name .title h2 {
@@ -48,13 +51,27 @@ h1 {
   justify-content: center;
   align-items: center;
   color: white;
+  font-size: 3rem;
 }
 
-.name .title .d {
+.name .model {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  position: absolute;
+  padding-right: 11rem;
 }
 
-.name .title .a {
-}
-
-.name .title .s {
+.name .model h3 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
 }

@@ -12,7 +12,7 @@ function handleButtonPress() {
     // Set a new timeout for 3 seconds
     timeout = setTimeout(() => {
         // Redirect to bootup.html
-        window.location.href = 'bootup.html';
+        window.location.href = 'prebootup.html';
     }, 1000);
 }
 
