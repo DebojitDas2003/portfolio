@@ -8,6 +8,7 @@
 
 body {
   background-color: black;
+  overflow: hidden;
 }
 
 .name {
@@ -57,4 +58,17 @@ h1 {
 .T {
   color: #4285f4;
   padding-right: 50rem;
+}
+
+.transition {
+  animation: fade-in 4s forwards; /* Apply animation to elements */
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
